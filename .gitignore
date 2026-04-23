@@ -1,0 +1,25 @@
+# Large folders only
+dataset/
+videos/
+results/
+logs/
+
+# Model weights
+models/yolov8n/
+models/yolov8s/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive files
+src/download_dataset.py
+
+# Video files
+*.mp4
+*.avi
+
+# Weight files
+*.pt
+*.engine
